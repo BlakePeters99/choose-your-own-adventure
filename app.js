@@ -9,7 +9,7 @@ else {
     console.log("You died.")
 }
 
-// Main function
+// Main function to allow the game to end using return with boolean life status
 function game() {
     //Initialize Decision & weapon (required for beating final boss)
     let decision, weapon = false;
